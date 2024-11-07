@@ -53,5 +53,27 @@ public class Main {
         System.out.println("Area: " + areaTriangulo);
         double sumaAreas = cuadrado.calcularArea() + rectangulo.calcularArea() + circulo.calcularArea() + triangulo.calcularArea();
         System.out.println("\nLa suma de las areas de todas las figuras es: " + sumaAreas);
+
+        //Conceptos:
+        /*
+        Clase:
+        Una clase es como una plantilla donde se le pone atributos los cuales van a ser
+        usados por los objetos, es decir un molde para los objetos.
+
+        Objetos:
+        Un objeto es una instancia de una clase que hereda todos o parte de los atributos
+        de la clase.
+
+        Constructor:
+        Es un metodo de java que se usa para inicializar los atributos de una
+        clase.
+
+        Setters y Getters:
+        Los getters y setters son métodos especiales en Java que se utilizan para
+        acceder y modificar los valores de los atributos privados de una clase.
+
+        Metodo:
+        Son  las acciones que pueden realizar los objetos de una clase.
+        */
     }
 }
