@@ -24,33 +24,27 @@ public class Main {
         triangulo.setAltura(scanner.nextDouble());
 
 
-        double areaCuadrado = cuadrado.calcularArea();
-        double areaRectangulo = rectangulo.calcularArea();
-        double areaCirculo = circulo.calcularArea();
-        double areaTriangulo = triangulo.calcularArea();
-
-
         System.out.println("\nCuadrado:");
         System.out.println("Lado: " + cuadrado.getLado());
         System.out.println("Perimetro: " + cuadrado.calcularPerimetro());
-        System.out.println("Area: " + areaCuadrado);
+        System.out.println("Area: " + cuadrado.calcularArea());
 
         System.out.println("\nRectangulo:");
         System.out.println("Ancho: " + rectangulo.getAncho());
         System.out.println("Alto: " + rectangulo.getAltura());
         System.out.println("Perimetro: " + rectangulo.calcularPerimetro());
-        System.out.println("Area: " + areaRectangulo);
+        System.out.println("Area: " + rectangulo.calcularArea());
 
         System.out.println("\nCirculo:");
         System.out.println("Radio: " + circulo.getRadio());
         System.out.println("Perimetro: " + circulo.calcularPerimetro());
-        System.out.println("Area: " + areaCirculo);
+        System.out.println("Area: " + circulo.calcularArea());
 
         System.out.println("\nTriangulo:");
         System.out.println("Lado: " + triangulo.getLado());
         System.out.println("Altura: " + triangulo.getAltura());
         System.out.println("Perimetro: " + triangulo.calcularPerimetro());
-        System.out.println("Area: " + areaTriangulo);
+        System.out.println("Area: " + triangulo.calcularArea());
         double sumaAreas = cuadrado.calcularArea() + rectangulo.calcularArea() + circulo.calcularArea() + triangulo.calcularArea();
         System.out.println("\nLa suma de las areas de todas las figuras es: " + sumaAreas);
 
